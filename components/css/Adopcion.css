@@ -1,0 +1,108 @@
+
+
+.tarjeta-equipo{
+    width: 100%;
+    margin: 0px 0px 0px 30px;
+    border: 6px solid #6DBA45;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 2px #6DBA45;
+    background: #fff;
+    text-align: center;
+}
+
+.texto-equipo{
+    text-align: center;
+    width: 60%;
+    margin: 0px 0px 0px 100px;
+}
+.texto-equipo p{
+    font-weight: 800;
+}
+.img img{
+    padding: 20px;
+    width: 120rem;
+    height: 25rem;
+}
+.texto-equipo hr{
+    color: #59ff00;
+    height: 4px;
+}
+
+.button1{
+    margin: .5em;
+    padding: .7em 1.5em;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #32a51b;
+    background-color: #ffff;
+    border: 2px solid rgba(112,111,211,0);
+    border-radius: 15px;
+    outline: none;
+    cursor:pointer;
+    transition: .3s;
+}
+.button1:focus{
+    color:#d39f6f;
+    border: 2px solid rgb(181, 211, 111);
+    box-shadow: 0px 0px 0px 1px rgb(141, 179, 72);
+    animation: anim-shadow 0.3s forwards;
+}
+@keyframes anim-shadow{
+    100%{
+        box-shadow: 0px 0px 50px 20px rgba(115, 151, 14, 0);
+    }
+}
+.button2{
+    margin: .5em;
+    padding: .7em 1.5em;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #e97223;
+    background-color: #ffff;
+    border: 2px solid rgba(223, 210, 39, 0);
+    border-radius: 15px;
+    outline: none;
+    cursor:pointer;
+    transition: .3s;
+}
+.button2:focus{
+    color:#d39f6f;
+    border: 2px solid rgb(230, 194, 38);
+    box-shadow: 0px 0px 0px 1px rgb(233, 236, 29);
+    animation: animm-shadow 0.3s forwards;
+}
+@keyframes animm-shadow{
+    100%{
+        box-shadow: 0px 0px 50px 20px rgba(221, 125, 46, 0);
+    }
+}
+
+@media (max-width: 992.98px) {
+    .texto-equipo{
+        margin: 0px 0px 0px 0px;
+    }
+    .tarjeta-equipo{
+        width: 60%;
+        margin: 0px 0px 0px 140px;
+    }
+}
+@media (max-width: 655.98px) {
+    .texto-equipo{
+        margin: 0px 0px 0px 40px;
+    }
+    .tarjeta-equipo{
+        width: 80%;
+        margin: 0px 0px 0px 50px;
+    }
+    
+}
+@media (max-width: 490.98px) {
+    .tarjeta-equipo{
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }  
+    
+    .texto-equipo{
+        margin: 0px 0px 0px 60px;
+    }
+}
